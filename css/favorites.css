@@ -1,0 +1,112 @@
+.favorite-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.favorite-card h3 {
+    color: #333;
+}
+
+.favorite-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.favorite-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.favorite-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+        border-radius: 5px;
+}
+
+#favoritesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.favorite-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.favorite-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.site-header {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+    display: block;
+}
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8e1;
+    color: #333;
+    padding-top: 180px;
+    padding-left: 40px;
+    direction: rtl;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #5a3e36;
+}
+
+footer {
+    width: 100%;
+    background-color: #fed391; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; 
+    bottom: 0; 
+}
+
+.rectangle {
+    width: 100%;
+    height: 20px;
+    background-color: #FF6347; 
+    position: fixed;
+    bottom: 40px; 
+}
